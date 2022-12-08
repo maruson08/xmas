@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'SF_HailSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HailSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'SF_HailSnow';
+    background-image: linear-gradient(to bottom right, red, rgb(206, 206, 206),green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    /* background-image: url("./img/bg-img.png");
+    background-attachment: fixed;
+    background-position: center center; */
+}
+tree{
+    display: block;
+    font-size: 500%;
+}
+#navBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#main{
+    height: 500px;
+}
