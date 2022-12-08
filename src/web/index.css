@@ -6,14 +6,12 @@
 }
 body{
     font-family: 'SF_HailSnow';
-    background-image: linear-gradient(to bottom right, red, rgb(206, 206, 206),green);
+    background-image: linear-gradient(to bottom right, red, yellowgreen,green);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     text-align: center;
-    /* background-image: url("./img/bg-img.png");
-    background-attachment: fixed;
-    background-position: center center; */
+    background-attachment: scroll;
 }
 tree{
     display: block;
@@ -24,5 +22,11 @@ tree{
     grid-template-columns: 1fr 1fr 1fr;
 }
 #main{
-    height: 500px;
+    min-height: 500px;
+}
+.navBtn{
+    padding: 5%;
+}
+.navBtn:hover{
+    font-weight: bolder;
 }
