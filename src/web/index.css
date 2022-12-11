@@ -5,15 +5,14 @@
     font-style: normal;
 }
 body{
+    margin: 0;
     font-family: 'SF_HailSnow';
-    background-image: linear-gradient(to bottom right, red, yellowgreen,green);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+    color: black;
     text-align: center;
-    background-attachment: scroll;
 }
 tree{
+    background-image: linear-gradient(to bottom right, red, yellowgreen,green);
+    color: white;
     display: block;
     font-size: 500%;
 }
@@ -26,7 +25,11 @@ tree{
 }
 .navBtn{
     padding: 5%;
+    margin: 5px;
 }
 .navBtn:hover{
     font-weight: bolder;
+}
+.musicDiv:hover{
+    width: 50%
 }
