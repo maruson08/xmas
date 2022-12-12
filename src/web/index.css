@@ -7,12 +7,10 @@
 body{
     margin: 0;
     font-family: 'SF_HailSnow';
-    color: black;
     text-align: center;
 }
 tree{
-    background-image: linear-gradient(to bottom right, red, yellowgreen,green);
-    color: white;
+    margin-top: 3%;
     display: block;
     font-size: 500%;
 }
@@ -31,5 +29,9 @@ tree{
     font-weight: bolder;
 }
 .musicDiv:hover{
-    width: 50%
+    animation: expand 2s forwards;
 }
+@keyframes expand {
+    0%   {margin-left: 30%;margin-right: 30%;height: 10px;}
+    100% {margin-left: 25%;margin-right: 25%;height: 350px;}
+  }
