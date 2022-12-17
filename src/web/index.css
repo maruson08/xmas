@@ -28,6 +28,15 @@ tree{
 .navBtn:hover{
     font-weight: bolder;
 }
+.musicDiv{
+    margin:30%;
+    margin-top:0;
+    margin-bottom:10px;
+    padding: 10px;
+    height:15x;
+    overflow: hidden; 
+    color:white;
+}
 .musicDiv:hover{
     animation: expand 2s forwards;
 }
