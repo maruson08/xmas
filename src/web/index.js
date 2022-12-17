@@ -10,7 +10,7 @@ $('.navBtn').click(function(){
                     'class': 'musicDiv',
                     'style': `margin:30%;margin-top:0;margin-bottom:10px;padding: 10px;height:12px;overflow: hidden; background-color:${color};color:white`
                 });
-                div.append(`${data[key].artist} - ${key}<br><br>${data[key].discribe}`);
+                div.append(`${data[key]} - ${key}`);
                 $('#main').append(div);
                 if(color == 'red'){
                     color = 'green';
@@ -24,4 +24,11 @@ $('.navBtn').click(function(){
     }else{
         $('#main').append('Icons');
     }
+})
+
+$('.musicDiv').click(function(){
+    const id = this.id;
+    console.log(id);
+    var audio = new Audio(`/music/${id}.mp3`);
+    audio.play();
 })
